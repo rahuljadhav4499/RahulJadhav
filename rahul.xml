@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Chrome Test">
+  <parameter name="browserNmae" value="chrome"></parameter>
+    <classes>
+      <class name="com.SauceDemo.TestClass.TC002VerifyLogOutFunct"/>
+      <class name="com.SauceDemo.TestClass.TC004VerifyTheMultipleProductAddToCartFunctionality"/>
+      <class name="com.SauceDemo.TestClass.TC001VerifyLoginActivity"/>
+      <class name="com.SauceDemo.TestClass.TC003VerifyTheBagProductADDtoCartFunctionality"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="FireFox Test">
+  <parameter name="browserNmae" value="Firefox"></parameter>
+    <classes>
+      <class name="com.SauceDemo.TestClass.TC002VerifyLogOutFunct"/>
+      <class name="com.SauceDemo.TestClass.TC004VerifyTheMultipleProductAddToCartFunctionality"/>
+      <class name="com.SauceDemo.TestClass.TC001VerifyLoginActivity"/>
+      <class name="com.SauceDemo.TestClass.TC003VerifyTheBagProductADDtoCartFunctionality"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

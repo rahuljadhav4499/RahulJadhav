@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ Regression Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.SauceDemo.TestClass.TC002VerifyLogOutFunct">
+        <methods>
+          <include name="verifyLogout"/>
+          <include name="tearDown"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.SauceDemo.TestClass.TC002VerifyLogOutFunct -->
+      <class name="com.SauceDemo.TestClass.TC001VerifyLoginActivity">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyLogin"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.SauceDemo.TestClass.TC001VerifyLoginActivity -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [ Regression Suite] -->
